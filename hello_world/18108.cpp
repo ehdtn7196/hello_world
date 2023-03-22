@@ -1,15 +1,17 @@
 #include <iostream>
 #include <algorithm>
-#define MAX_ID 51
 using namespace std;
 
 int main()
 {
-	char ID[MAX_ID];
+	int a, b;
 
-	cin >> ID;
+	cin >> a;
 
-	cout << ID << "??!" << endl;
+	b = a - 543;
+
+	cout << b << endl;
 
 	return 0;
+
 }

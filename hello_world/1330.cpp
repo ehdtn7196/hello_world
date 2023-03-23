@@ -22,6 +22,6 @@ int main() {
 
 	else if (A == B)
 	{
-		cout << " == " << endl;
+		cout << "==" << endl;
 	}
 }

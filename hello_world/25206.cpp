@@ -12,9 +12,9 @@ int main()
 
     for (int i = 0; i < 20; i++)
     {
-        getline(cin, input_line);
-        istringstream iss(input_line);
-        iss >> course >> a >> S;
+        /*getline(cin, input_line);*/
+        //istringstream iss(input_line);
+        cin >> course >> a >> S;
 
         if (S == "P")
         {
